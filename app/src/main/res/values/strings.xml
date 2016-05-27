@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Latihan Chii</string>
+    <string name="klik">klik</string>
+    <string name="welcome">welcome</string>
 </resources>
