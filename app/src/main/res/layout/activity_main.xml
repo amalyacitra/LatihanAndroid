@@ -27,6 +27,7 @@
         android:layout_marginTop="60dp"
         android:id="@+id/buttonKlik"
         android:text="@string/klik"
+        android:onClick="kalodiklik"
         />
 
 

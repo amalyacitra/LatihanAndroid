@@ -17,24 +17,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // To be able to edit the TextView with our code we have to create it and
-        // bind it to a TextView object. I need to use final because it will be
-        // used in the inner class below
-        final TextView firstTextView = (TextView) findViewById(R.id.welcome);
-
-        // I set up the Button just like I did the TextView
-        Button firstButton = (Button) findViewById(R.id.buttonKlik);
-
-        // This is how you make the Button change the text in the TextView when it is clicked
-        firstButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                firstTextView.setText("You Clicked");
-
-            }
-        });
     }
 
 
+    public void kalodiklik(View view) {
+
+        TextView textView = (TextView) findViewById(R.id.welcome);
+
+        textView.setText("ini Klo pake method implement dari xml onclick");
+
+
+    }
 }
